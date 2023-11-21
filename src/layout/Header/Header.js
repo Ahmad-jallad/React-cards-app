@@ -29,14 +29,14 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link">
+            <Link to="/" className="nav-link">
               Posts
             </Link>
           </li>
           <li className="nav-item">
-            <a href="#album-title" className="nav-link">
+            <Link to="/albums" className="nav-link">
               Albums
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
